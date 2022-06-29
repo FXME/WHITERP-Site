@@ -390,6 +390,7 @@
 #logo-mastercard {
     z-index: 3;
     cursor: pointer;
+    opacity: 0.4;
     position: absolute;
     width: 50px;
     height: 50px;
@@ -401,6 +402,7 @@
 #logo-visa {
     z-index: 3;
     cursor: pointer;
+    opacity: 0.4;
     position: absolute;
     width: 50px;
     height: 50px;
@@ -412,6 +414,7 @@
 #logo-qiwi {
     z-index: 3;
     cursor: pointer;
+    opacity: 0.4;
     position: absolute;
     width: 45px;
     height: 45px;
@@ -423,6 +426,7 @@
 #logo-apple {
     z-index: 3;
     cursor: pointer;
+    opacity: 0.4;
     position: absolute;
     width: 50px;
     height: 50px;
