@@ -136,3 +136,19 @@
     bottom: 0%;
     background: url(assets/forum.png);
 }
+
+#main-button { 
+    cursor: pointer;
+}
+
+#start-button {
+    cursor: pointer;
+}
+
+#shop-button {
+    cursor: pointer;
+}
+
+#forum-button {
+    cursor: pointer;
+}
