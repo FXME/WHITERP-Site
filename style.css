@@ -26,8 +26,8 @@
 
 #bg {
     position: absolute;
-    width: 1920px;
-    height: 969px;
+    width: 100vw;
+    height: 100vh;
     left: 0px;
     top: 0px;
     background: #1E1E1E;
@@ -137,7 +137,7 @@
     background: url(assets/forum.png);
 }
 
-#main-button { 
+#main-button {
     cursor: pointer;
 }
 
