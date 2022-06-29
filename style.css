@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+    supported by Chrome, Edge, Opera and Firefox */
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    src: url(assets/font/Montserrat-Regular.ttf);
+}
+
+#bg {
+    position: absolute;
+    width: 1920px;
+    height: 969px;
+    left: 0px;
+    top: 0px;
+    background: #1E1E1E;
+}
+
+#h-bg {
+    z-index: 15;
+    position: absolute;
+    width: 624px;
+    height: 63px;
+    left: 648px;
+    top: 0px;
+    background: #242424;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#Text-Main {
+    z-index: 16;
+    position: absolute;
+    left: 23px;
+    top: 21px;
+    bottom: 9.09%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#Img-Main {
+    position: absolute;
+    left: 112px;
+    Width: 20px;
+    Height: 20px;
+    top: 22px;
+    bottom: 0%;
+    background: url(assets/main.png);
+}
+
+#Start-Game {
+    position: absolute;
+    left: 159px;
+    top: 21px;
+    bottom: 9.09%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#Img-Start {
+    position: absolute;
+    Width: 20px;
+    Height: 20px;
+    left: 312px;
+    top: 22px;
+    bottom: 0%;
+    background: url(assets/start.png);
+}
+
+#Text-Shop {
+    position: absolute;
+    left: 359px;
+    top: 21px;
+    bottom: 13.64%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#Img-Shop {
+    position: absolute;
+    Width: 20px;
+    Height: 20px;
+    left: 455px;
+    top: 22px;
+    bottom: 0%;
+    background: url(assets/shop.png);
+}
+
+#Text-Forum {
+    position: absolute;
+    left: 502px;
+    top: 21px;
+    bottom: 13.64%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#Img-Forum {
+    position: absolute;
+    Width: 20px;
+    Height: 20px;
+    left: 580px;
+    top: 22px;
+    bottom: 0%;
+    background: url(assets/forum.png);
+}
