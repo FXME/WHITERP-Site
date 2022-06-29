@@ -513,6 +513,291 @@
     color: #FFFFFF;
 }
 
+#Mini-Tutor {
+    z-index: 3;
+    position: absolute;
+    width: 556px;
+    height: 65px;
+    left: 195px;
+    top: 493px;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+#text-launcher {
+    z-index: 4;
+    position: absolute;
+    width: 106px;
+    height: 24px;
+    left: 240px;
+    top: 591px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+#button-launcher {
+    z-index: 3;
+    position: absolute;
+    width: 195px;
+    height: 64px;
+    left: 195px;
+    top: 573px;
+    background: #3D3D3D;
+    box-shadow: 0px 4px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+
+#tutor-1 {
+    z-index: 3;
+    position: absolute;
+    width: 766px;
+    height: 382px;
+    left: 964px;
+    top: 284px;
+    background: #000000;
+    border-radius: 14px;
+}
+
+#text-tutor-1 {
+    z-index: 3;
+    position: absolute;
+    width: 471px;
+    height: 24px;
+    left: 1047px;
+    top: 305px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+#tutor-img {
+    z-index: 3;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 979px;
+    top: 291px;
+    background: url(assets/video-img.png);
+}
+
+#tutor-start-img {
+    z-index: 3;
+    cursor: pointer;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1297px;
+    top: 425px;
+    background: url(assets/video-start-img.png);
+}
+
+#bg-money {
+    z-index: 3;
+    position: absolute;
+    width: 640px;
+    height: 46px;
+    left: 640px;
+    top: 254px;
+    background: #2A2A2A;
+    border-radius: 15px;
+}
+
+#convert-money-text {
+    z-index: 3;
+    position: absolute;
+    width: 362px;
+    height: 24px;
+    left: 779px;
+    top: 265px;
+    font-family: 'Montserrat';
+    font-style: medium;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#bg-donate {
+    z-index: 3;
+    position: absolute;
+    width: 640px;
+    height: 305px;
+    left: 640px;
+    top: 313px;
+    background: #2A2A2A;
+    border-radius: 15px;
+}
+
+#list-server {
+    z-index: 3;
+    position: absolute;
+    width: 247px;
+    height: 26px;
+    left: 664px;
+    top: 332px;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+#server-1 {
+    z-index: 3;
+    position: absolute;
+    width: 101px;
+    height: 26px;
+    left: 921px;
+    top: 332px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+#player-id {
+    z-index: 3;
+    position: absolute;
+    width: 195px;
+    height: 26px;
+    left: 679px;
+    top: 408px;
+    font-family: 'Montserrat';
+    font-style: medium;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+#suma {
+    z-index: 3;
+    position: absolute;
+    width: 92px;
+    height: 26px;
+    left: 782px;
+    top: 444px;
+    font-family: 'Montserrat';
+    font-style: medium;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+#e-mail {
+    z-index: 3;
+    position: absolute;
+    width: 92px;
+    height: 26px;
+    left: 782px;
+    top: 483px;
+    font-family: 'Montserrat';
+    font-style: medium;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+#editbox1 {
+    z-index: 3;
+    position: absolute;
+    width: 326px;
+    height: 28px;
+    left: 878px;
+    top: 406px;
+    background: #202020;
+    border-radius: 4px;
+}
+
+#editbox2 {
+    z-index: 3;
+    position: absolute;
+    width: 326px;
+    height: 28px;
+    left: 878px;
+    top: 444px;
+    background: #202020;
+    border-radius: 4px;
+}
+
+#editbox3 {
+    z-index: 3;
+    position: absolute;
+    width: 326px;
+    height: 28px;
+    left: 878px;
+    top: 482px;
+    background: #202020;
+    border-radius: 4px;
+}
+
+#chekbox1 {
+    z-index: 3;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 696px;
+    top: 554px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+#licens-text {
+    z-index: 3;
+    position: absolute;
+    width: 184px;
+    height: 14px;
+    left: 717px;
+    top: 554px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+#licens-click-text {
+    z-index: 3;
+    cursor: pointer;
+    position: absolute;
+    width: 329px;
+    height: 14px;
+    left: 899px;
+    top: 554px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000AFF;
+}
+
+#Dow-Laucher {
+    cursor: pointer;
+}
+
 #main-button {
     cursor: pointer;
 }
