@@ -24,7 +24,20 @@
     src: url(assets/font/Montserrat-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'Montserrat';
+    font-style: Bold;
+    src: url(assets/font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: Medium;
+    src: url(assets/font/Montserrat-Medium.ttf);
+}
+
 #bg {
+    z-index: 1;
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -33,8 +46,96 @@
     background: #1E1E1E;
 }
 
+#Img-BG {
+    z-index: 2;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: url(assets/bg-img.png);
+}
+
+#logo {
+    z-index: 3;
+    position: absolute;
+    width: 250px;
+    height: 141px;
+    left: 835px;
+    top: 63px;
+    background: url(assets/logo.png);
+}
+
+#Project-Name {
+    z-index: 3;
+    position: absolute;
+    width: 484px;
+    height: 24px;
+    left: 718px;
+    top: 204px;
+    font-family: 'Montserrat';
+    font-style: Medium;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+#line-logo {
+    z-index: 3;
+    position: absolute;
+    width: 498px;
+    height: 2px;
+    left: 711px;
+    top: 241px;
+    background: #FFFFFF;
+}
+
+#text-1 {
+    z-index: 3;
+    position: absolute;
+    width: 484px;
+    height: 72px;
+    left: 718px;
+    top: 249px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#button-start {
+    z-index: 3;
+    position: absolute;
+    width: 409px;
+    height: 64px;
+    left: 755px;
+    top: 342px;
+    background: #3D3D3D;
+    box-shadow: 0px 4px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+
+#button-start-text {
+    z-index: 3;
+    position: absolute;
+    width: 386px;
+    height: 24px;
+    left: 772px;
+    top: 362px;
+    font-family: 'Montserrat';
+    font-style: Bold;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
 #h-bg {
-    z-index: 15;
+    z-index: 3;
     position: absolute;
     width: 624px;
     height: 63px;
@@ -45,7 +146,6 @@
 }
 
 #Text-Main {
-    z-index: 16;
     position: absolute;
     left: 23px;
     top: 21px;
@@ -135,6 +235,248 @@
     top: 22px;
     bottom: 0%;
     background: url(assets/forum.png);
+}
+
+#bg-video-1 {
+    z-index: 3;
+    position: absolute;
+    width: 766px;
+    height: 382px;
+    left: 577px;
+    top: 443px;
+    background: #000000;
+    border-radius: 14px;
+}
+
+#text-video-1 {
+    z-index: 3;
+    position: absolute;
+    width: 498px;
+    height: 24px;
+    left: 660px;
+    top: 464px;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+#video-img {
+    z-index: 3;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 592px;
+    top: 450px;
+    background: url(assets/video-img.png);
+}
+
+#video-start-img {
+    z-index: 3;
+    cursor: pointer;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 910px;
+    top: 584px;
+    background: url(assets/video-start-img.png);
+}
+
+#line-end {
+    z-index: 3;
+    position: absolute;
+    width: 1865px;
+    height: 2px;
+    left: 27px;
+    top: 866px;
+    background: #565656;
+}
+
+#text-support {
+    z-index: 3;
+    position: absolute;
+    width: 239px;
+    height: 24px;
+    left: 37px;
+    top: 889px;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(191, 0, 0, 0.5);
+}
+
+#text-support-1 {
+    z-index: 3;
+    cursor: pointer;
+    position: absolute;
+    width: 173px;
+    height: 24px;
+    left: 37px;
+    top: 920px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+#text-support-2 {
+    z-index: 3;
+    cursor: pointer;
+    position: absolute;
+    width: 146px;
+    height: 24px;
+    left: 232px;
+    top: 920px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+#text-support-3 {
+    z-index: 3;
+    cursor: pointer;
+    position: absolute;
+    width: 89px;
+    height: 24px;
+    left: 399px;
+    top: 920px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+#text-auth {
+    z-index: 3;
+    position: absolute;
+    width: 226px;
+    height: 24px;
+    left: 851px;
+    top: 909px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+#text-copyright {
+    z-index: 3;
+    position: absolute;
+    width: 388px;
+    height: 24px;
+    left: 1509px;
+    top: 882px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #626262;
+}
+
+#logo-mastercard {
+    z-index: 3;
+    cursor: pointer;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1570px;
+    top: 909px;
+    background: url(assets/mastercard.png);
+}
+
+#logo-visa {
+    z-index: 3;
+    cursor: pointer;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1638px;
+    top: 909px;
+    background: url(assets/visa.png);
+}
+
+#logo-qiwi {
+    z-index: 3;
+    cursor: pointer;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1706px;
+    top: 912px;
+    background: url(assets/qiwi.png);
+}
+
+#logo-apple {
+    z-index: 3;
+    cursor: pointer;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1769px;
+    top: 909px;
+    background: url(assets/apple.png);
+}
+
+#logo-vk {
+    z-index: 3;
+    cursor: pointer;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1615px;
+    top: 16px;
+    background: url(assets/vk.png);
+}
+
+#logo-discord {
+    z-index: 3;
+    cursor: pointer;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1645px;
+    top: 16px;
+    background: url(assets/discord.png);
+}
+
+#logo-telegram {
+    z-index: 3;
+    cursor: pointer;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1675px;
+    top: 16px;
+    background: url(assets/telegram.png);
+}
+
+#text-3 {
+    z-index: 3;
+    position: absolute;
+    width: 187px;
+    height: 24px;
+    left: 1715px;
+    top: 19px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
 
 #main-button {
